@@ -38,7 +38,13 @@ const Content = () => {
 	}, [page]);
 
 	return (
-		<Flex my={"60px"} gap={12} flexWrap={"wrap"} justifyContent={"center"}>
+		<Flex
+			mt={"120px"}
+			mb={"60px"}
+			gap={12}
+			flexWrap={"wrap"}
+			justifyContent={"center"}
+		>
 			{loading ? (
 				<p>Loading...</p>
 			) : error ? (

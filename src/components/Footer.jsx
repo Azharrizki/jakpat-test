@@ -29,11 +29,13 @@ export default function SmallWithSocial() {
 					<Text>Muhammad Azhar Rizki - azharrizki7834@gmail.com</Text>
 				</Stack>
 				<Stack direction={"row"} spacing={6}>
-					<IconButton
-						variant={"ghost"}
-						size={"md"}
-						icon={<FaGithub size={24} />}
-					/>
+					<a href="https://github.com/Azharrizki/jakpat-test">
+						<IconButton
+							variant={"ghost"}
+							size={"md"}
+							icon={<FaGithub size={24} />}
+						/>
+					</a>
 				</Stack>
 			</Container>
 		</Box>
